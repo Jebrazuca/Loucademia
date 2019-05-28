@@ -1,0 +1,111 @@
+<! ---- Cabeçalho - Ínicio ---->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="ISO-8859-1">
+		<title>Loucademia - Relatório de Situações</title>
+	<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+</head>
+	<body>
+		<header>
+			<img src="images/Loucademia_Logotipo.png">
+		<nav>
+			<div>
+				<a href="NovoAluno.html">Novo Aluno </a><br>
+				<a href="PesquisadeAluno.html">Pesquisa de Aluno </a><br>
+				<a href="ControledeAcesso.html">Controle de Acesso </a><br>
+				<a href="RelatioriosEntradaSaida.html">Relatórios de Entrada e Saídas</a><br>
+				<a href="RelatoriosSituacoes.html">Retórios de Situações </a><br>
+			</div>
+		</nav>
+		</header>
+		<! ---- Cabeçalho - FIM ---->
+
+		<h1>Relatório de Situações</h1>
+		
+		<div id="InfoMessage">
+			(Aqui vai aparecer eventual mensagem de sistema confirmando sucesso ou erro)
+		</div>
+			<br>
+			
+		<form>			
+			<fieldset>
+				<legend>Parâmetros de Situação</legend>
+				
+				<label id="Situacao">Situação</label><br>
+				<select name="Situacao" id="Situacao"><br>
+					<option>Ativo</option>
+					<option>Inativo</option>
+					<option>Com Pendência</option>
+				</select>
+							
+			</fieldset>
+				<br>
+			
+			<input type="button" value="Pesquisar">
+
+		</form>
+			<br><br>
+			
+		<table>
+				<tr>
+					<th>ID</th>
+					<th>NOME </th>
+					<th>SITUAÇÃO</th>
+					<th>CELULAR</th>
+					<th>FIXO</th>
+					<th>AÇÕES</th>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Gustavo</td>
+					<td>Ativo</td>
+					<td>123456987</td>
+					<td>123456789</td>
+					<td>
+						<input type="button" value="Editar">
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Carlos</td>
+					<td>Inativo</td>
+					<td>123456987</td>
+					<td>123456789</td>
+					<td>
+						<input type="button" value="Editar">
+					</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Adriana</td>
+					<td>Ativo</td>
+					<td>123456987</td>
+					<td>123456789</td>
+					<td>
+						<input type="button" value="Editar">
+					</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Monique</td>
+					<td>Inativo</td>
+					<td>123456987</td>
+					<td>123456789</td>
+					<td>
+						<input type="button" value="Editar">
+					</td>
+				</tr>
+				
+			</table>
+
+
+
+	<! ---- Rodapé - Ínicio ---->
+	</body>
+
+
+
+</html>
+
+<! ---- Rodapé - FIM ---->

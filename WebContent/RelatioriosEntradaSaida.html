@@ -1,0 +1,93 @@
+<! ---- Cabeçalho - Ínicio ---->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="ISO-8859-1">
+		<title>Loucademia - Relatório de Entrada e Saída</title>
+		<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+</head>
+	<body>
+		<header>
+			<img src="images/Loucademia_Logotipo.png">
+		<nav>
+			<div>
+				<a href="NovoAluno.html">Novo Aluno </a><br>
+				<a href="PesquisadeAluno.html">Pesquisa de Aluno </a><br>
+				<a href="ControledeAcesso.html">Controle de Acesso </a><br>
+				<a href="RelatioriosEntradaSaida.html">Relatórios de Entrada e Saídas</a><br>
+				<a href="RelatoriosSituacoes.html">Retórios de Situações </a><br>
+			</div>
+		</nav>
+		</header>
+		<! ---- Cabeçalho - FIM ---->
+		
+		<h1>Relatório Entrada e Saídas</h1>
+		
+		<div id="InfoMessage">
+			(Aqui vai aparecer eventual mensagem de sistema confirmando sucesso ou erro)
+		</div>
+			<br>
+			
+		<form>
+				<fieldset>
+					<legend>Parâmetros de Entrada e Saída</legend>
+					
+					<label for="id">ID</label><br>
+					<input type="text" name="id" id="id"><br>
+					
+					<label for="dataInicial">Data Inicial</label><br>
+					<input type="date" name="dataInicial" id="dataInicial"><br>
+				
+					<label for="dataFinal">Data Final</label><br>
+					<input type="date" name="dataFinal" id="dataFinal"><br>
+					
+				</fieldset>
+					<br>
+					<input type="submit" value="Gerar Relatório">		
+			</form>
+				<br><br>
+			
+			
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>NOME </th>
+					<th>ENTRADA</th>
+					<th>SAÍDA</th>
+					<th>DURAÇÂO</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Andre</td>
+					<td>25/05/2019 00:44</td>
+					<td>25/05/2019 01:44</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Carlos</td>
+					<td>22/05/2019 03:14</td>
+					<td>22/05/2019 01:44</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Gustavo</td>
+					<td>25/05/2019 00:44</td>
+					<td>25/05/2019 01:44</td>
+					<td>3</td>
+				</tr>
+				
+			
+			
+			</table>
+
+
+	<! ---- Rodapé - Ínicio ---->
+	</body>
+
+
+
+</html>
+
+<! ---- Rodapé - FIM ---->

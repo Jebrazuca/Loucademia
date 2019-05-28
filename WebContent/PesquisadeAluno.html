@@ -1,0 +1,106 @@
+<! ---- Cabeçalho - Ínicio ---->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="ISO-8859-1">
+		<title>Loucademia - Pesquisa de Aluno</title>
+		<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+</head>
+	<body>
+		<header>
+			<img src="images/Loucademia_Logotipo.png">
+		<nav>
+			<div>
+				<a href="NovoAluno.html">Novo Aluno </a><br>
+				<a href="PesquisadeAluno.html">Pesquisa de Aluno </a><br>
+				<a href="ControledeAcesso.html">Controle de Acesso </a><br>
+				<a href="RelatioriosEntradaSaida.html">Relatórios de Entrada e Saídas</a><br>
+				<a href="RelatoriosSituacoes.html">Retórios de Situações </a><br>
+			</div>
+		</nav>
+		</header>
+		<! ---- Cabeçalho - FIM ---->
+	
+			<h1>Pesquisa de Aluno</h1>
+			
+			<div id="InfoMessage">
+				(Aqui vai aparecer eventual mensagem de sistema confirmando sucesso ou erro)
+			</div>
+			
+			<br>
+			
+			<form>
+				<fieldset>
+					<legend>Parâmetros de Pesquisa</legend>
+					
+					<label for="id">ID</label><br>
+					<input type="text" name="id" id="id"><br>
+					
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome"><br>
+				
+					<label for="telefoneDDD">Telefone</label><br>
+					<input type="tel" name="telefoneDDD" id="telefoneDDD">
+					<input type="tel" name="telefoneNumero" id="telefoneNumero"><br>
+					
+				</fieldset>
+					<br>
+					<input type="submit" value="Pesquisar">		
+			</form>
+				<br><br>
+			<table>
+				<tr>
+					<th>ID</th>
+					<th>Nome</th>
+					<th>RG</th>
+					<th>E-mail</th>
+					<th>Situações</th>
+					<th>Ações</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Jefferson</td>
+					<td>12345789</td>
+					<td>jeff@hotmail.com</td>
+					<td>Ativo</td>
+					<td>
+						<input type="button" value="Editar">
+						<input type="button" value="Excluir">
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Adriana</td>
+					<td>454632187</td>
+					<td>adrian@yahoo.com</td>
+					<td>Ativo</td>
+					<td>
+						<input type="button" value="Editar">
+						<input type="button" value="Excluir">
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Monique</td>
+					<td>456789456</td>
+					<td>momo@yahoo.com</td>
+					<td>Inativo</td>
+					<td>
+						<input type="button" value="Editar">
+						<input type="button" value="Excluir">
+					</td>
+				</tr>
+			</table>
+
+
+
+
+
+	<! ---- Rodapé - Ínicio ---->
+	</body>
+
+
+
+</html>
+
+<! ---- Rodapé - FIM ---->
